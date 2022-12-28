@@ -1,5 +1,6 @@
 import Users from "./pages/users"
 import ReducerExample from "./pages/counter"
+import RefExample from "./pages/use-ref"
 
 function App() {
 
@@ -8,6 +9,8 @@ function App() {
       <Users />
       <hr className="my-1" />
       <ReducerExample />
+      <hr className="my-1" />
+      <RefExample />
     </div>
   )
 }
