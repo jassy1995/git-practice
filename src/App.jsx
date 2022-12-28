@@ -4,7 +4,6 @@ function App() {
 
   return (
     <div className="container mx-auto">
-      <h1>user list</h1>
       <Users />
     </div>
   )
