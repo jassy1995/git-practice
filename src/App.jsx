@@ -2,6 +2,7 @@ import Users from "./pages/users"
 import ReducerExample from "./pages/counter"
 import RefExample from "./pages/use-ref"
 import ImperativeExanple from "./pages/use-imperative"
+import ContextExample from "./pages/context"
 
 function App() {
 
@@ -14,6 +15,8 @@ function App() {
       <RefExample />
       <hr className="my-1" />
       <ImperativeExanple />
+      <hr className="my-1" />
+      <ContextExample />
     </div>
   )
 }
