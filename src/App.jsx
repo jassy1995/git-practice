@@ -3,6 +3,7 @@ import ReducerExample from "./pages/counter"
 import RefExample from "./pages/use-ref"
 import ImperativeExanple from "./pages/use-imperative"
 import ContextExample from "./pages/context"
+import FilterExample from "./pages/filter-example"
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
       <ImperativeExanple />
       <hr className="my-1" />
       <ContextExample />
+      <hr className="my-1" />
+      <FilterExample />
     </div>
   )
 }

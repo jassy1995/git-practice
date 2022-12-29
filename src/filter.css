@@ -1,0 +1,178 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+header {
+    /* Positioning */
+    /* position: fixed;
+    z-index: 1;
+    top: 0; */
+
+    /* Box Model and alignment */
+    width: 100%;
+    text-align: center;
+}
+
+.primary-heading {
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+/* Input Styling */
+form {
+    /* Box Model */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+/* Input Styling */
+
+/* Label */
+.custom-search {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Font and Color */
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Input field */
+.filter-text {
+    /* Box Model */
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    padding: 5px 15px;
+    width: 8rem;
+
+    /* Colors */
+    color: darkslateblue;
+}
+.filter-text:focus {
+    outline: none;
+    border: 1px solid slateblue;
+}
+
+/* Custom Checkbox Styling */
+/* Label */
+.custom-checkbox {
+    /* Box Model */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    /* Font and color */
+    color: violet;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Checkbox */
+.filter-checkox {
+    /* Box Model */
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    outline: 2px solid violet;
+    outline-offset: 3px;
+    border-radius: 50%;
+}
+.filter-checkox:checked {
+    background-color: violet;
+}
+
+/* Range Slider Styling */
+/* Label */
+.custom-range {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    /* Color */
+    color: skyblue;
+}
+
+/* Select Input Styling */
+.custom-select {
+    /* Box Model */
+    border: 1px solid lightblue;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+}
+
+/* Toggle Button and reset filter button */
+.toggle-filters {
+    /* Box Model */
+    border: none;
+    padding: 1rem 0;
+    width: 100%;
+
+    /* Colors and fonts */
+    background-color: lightgreen;
+    color: white;
+    text-shadow: 1px 1px white;
+    font-family: Tahoma;
+    letter-spacing: 3px;
+
+    cursor: pointer;
+}
+.reset-filter-button {
+    /* Box Model */
+    border: none;
+    border-radius: 10px;
+    padding: 0.4rem 0.8rem;
+
+    /* Colors */
+    background-color: crimson;
+    color: white;
+
+    cursor: pointer;
+}
+
+/* Containers */
+.fixed-container {
+    /* position: fixed;
+    top: 0;
+    height: 100%; */
+    overflow-y: auto;
+    background-color: black;
+}
+
+.container {
+    margin-top: 2rem;
+    display: grid;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.filter-form {
+    margin-top: 100px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 500px) {
+    form {
+        flex-direction: column;
+        align-items: start;
+        gap: 2rem;
+    }
+}
+
+/* Show/hide filters options*/
+.hide {
+    display: none;
+}
+
+.text-red {
+    color: crimson;
+    font-size: 1.5rem;
+}
+.text-green {
+    color: lime;
+    font-size: 1.5rem;
+}
